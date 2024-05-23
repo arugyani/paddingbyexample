@@ -1,0 +1,12 @@
+{
+  "manifest_version": 3,
+  "name": "Go Tutorial Padding",
+  "version": "1.0",
+  "description": "Adds padding to gobyexample.com for readability.",
+  "content_scripts": [
+    {
+      "matches": ["*://gobyexample.com/*"],
+      "js": ["go_padding.js"]
+    }
+  ]
+}
